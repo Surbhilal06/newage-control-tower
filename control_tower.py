@@ -119,7 +119,7 @@ div[data-testid="stDownloadButton"] > button:hover {{
 
 
 # ── Data loading ───────────────────────────────────────────────────────────────
-DEFAULT_PATH = os.path.join(os.path.dirname(__file__), "../data/NewAge_Returns_Claims_Data.xlsx")
+DEFAULT_PATH = os.path.join(os.path.dirname(__file__), "data/NewAge_Returns_Claims_Data.xlsx")
 
 def load_from_bytes(file_bytes):
     xl = pd.ExcelFile(io.BytesIO(file_bytes))
